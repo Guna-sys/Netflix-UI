@@ -12,7 +12,7 @@
     background-position: center center;
     background-repeat: no-repeat ;
     background-size: max(2400px, 100vw);
-    
+ 
 }
 
 
@@ -45,17 +45,31 @@
     z-index: 10;    
 }
 button{
-    padding:5px 18px;
-    font-size:16px;
-    font-family: sans-serif;
-    color:white;
-    border-radius: 5px;
-    font-weight: 550;
-    margin:5px;
-    position: relative;
-    z-index: 10;
+    border: 0;
+    outline: 0;
+    background: #db0001;
+    color: #fff;
+    padding: 7px 20px;
+    font-size: 12px;
+    border-radius: 4px;
+    margin-left: 10px;
+    cursor: pointer;
+    position:relative;
+      z-index: 10;
     
 }
+.language-btn{
+  display: inline-flex;
+    align-items: center;
+    background: transparent;
+    border: 1px solid white;
+    padding: 7px 10px;
+}
+.language-btn img{
+    width: 10px;
+    margin-left: 10px;
+}
+
 #a{
     background-color: rgb(25,25,25);
     box-sizing:auto;

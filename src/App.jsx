@@ -10,7 +10,9 @@ function App() {
           <img className="logo" src="/img/logo.svg" alt="logo" width="160px" />
         </nav>
         <span>
-          <button id="a">English</button>
+              <button className="language-btn">
+      English <img src="/img/down-icon.png" alt="dropdown icon" />
+    </button>
           <button id="b">Sign In</button>
         </span>
       </div>
@@ -116,7 +118,7 @@ function App() {
             <label htmlFor="first">What is Netflix?</label>
             <div className="content">
               <p>
-               Netflix is a subscription-based streaming service that offers unlimited access to movies, TV shows, documentaries, and exclusive originals across various genres and languages, available to watch anytime on smartphones, laptops, smart TVs, and tablets, with features like offline downloads, multiple profiles, and personalized recommendations.
+                Netflix is a subscription-based streaming service that offers unlimited access to movies, TV shows, documentaries, and exclusive originals across various genres and languages, available to watch anytime on smartphones, laptops, smart TVs, and tablets, with features like offline downloads, multiple profiles, and personalized recommendations.
               </p>
             </div>
           </li>
@@ -198,7 +200,9 @@ function App() {
             <a href="#">Contact Us</a>
           </div>
         </div>
-        <button id="a">English</button>
+       <button className="language-btn">
+      English <img src="/img/down-icon.png" alt="dropdown icon" />
+    </button>
         <p className="copyright-txt">&copy; Netflix India</p>
       </div>
     </div>
